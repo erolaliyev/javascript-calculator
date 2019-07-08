@@ -1,9 +1,39 @@
 @import './styles/App.scss';
+@import './styles/NumberPad.scss';
+@import './styles/Variables.scss';
 
 html {
   font-size: 62.5%;
+  height: 100%;
 }
 
 body {
   font-size: 1.6rem;
+  height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: $font-general-color;
+  height: 100%;
+}
+
+button {
+  border: 0.1px solid grey;
+  color: $font-general-color;
+  border-radius: 50%;
+  margin: 0.3rem !important;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
 }

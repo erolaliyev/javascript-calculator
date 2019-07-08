@@ -1,0 +1,22 @@
+@import './Variables.scss';
+
+#container {
+  width: 20rem;
+  height: 30rem;
+  display: grid;
+  grid-template-columns: 5rem 5rem 5rem 5rem;
+  grid-template-rows: 5rem 5rem 5rem 5rem 5rem 5rem;
+  padding: 0 0.5rem 1rem 0.5rem;
+  background-color: $container;
+  border-radius: 0.5rem;
+}
+
+#display {
+  grid-column: 1 / span 4;
+  grid-row: 1 / 2;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 2.5rem;
+}

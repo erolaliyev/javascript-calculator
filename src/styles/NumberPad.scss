@@ -1,0 +1,95 @@
+@import './Variables.scss';
+
+#clear {
+  background-color: $clear-button;
+  grid-column: 1 / span 2;
+  grid-row: 2 / 3;
+  border-radius: 2.5rem;
+  color: $clear-button-font;
+}
+
+#divide {
+  background-color: $operations;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+#multiply {
+  background-color: $operations;
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}
+
+#subtract {
+  background-color: $operations;
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+}
+
+#add {
+  background-color: $operations;
+  grid-column: 4 / 5;
+  grid-row: 4 / 5;
+}
+
+#equals {
+  background-color: $operations;
+  grid-column: 4 / 5;
+  grid-row: 5 / span 2;
+  border-radius: 2.5rem;
+}
+
+#decimal {
+  background-color: $numbers;
+  grid-column: 3 / 4;
+  grid-row: 6 / 7;
+}
+
+#zero {
+  background-color: $numbers;
+  grid-column: 1 / span 2;
+  grid-row: 6 / 7;
+  border-radius: 2.5rem;
+}
+
+#one {
+  background-color: $numbers;
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+}
+
+#two {
+  background-color: $numbers;
+  grid-column: 2 / 3;
+  grid-row: 5 / 6;
+}
+
+#three {
+  background-color: $numbers;
+  grid-column: 3 / 4;
+  grid-row: 5 / 6;
+}
+
+#four {
+  background-color: $numbers;
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+#five {
+  background-color: $numbers;
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+}
+
+#six {
+  background-color: $numbers;
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+}
+
+#seven,
+#eight,
+#nine {
+  background-color: $numbers;
+}
